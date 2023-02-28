@@ -27,8 +27,8 @@ public class Main {
 
     public static void task2() {
         int[] arr = generateRandomArray();
-        int maxArr = -1;
-        int minArr = arr[0] + 1;
+        int maxArr = arr [0];
+        int minArr = arr [0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > maxArr) {
                 maxArr = arr[i];
